@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+body,
+html {
+	background: #000000;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 6rem;
+	font-family: "Montserrat", sans-serif;
+	width: 100%;
+}
+
+h1{
+	font-family: "Amatic SC", sans-serif;
+	color: #fff;
+	font-size: 7rem;
+}
+
+.featured_wrapper {
+	position: relative;
+}
+.featured_wrapper img {
+	width: 100%;
+	height: 70vh;
+	object-fit: cover;
+	object-position: top;
+}
+
+.title_wrapper {
+	position: absolute;
+	width: 100%;
+	left: 2rem;
+	bottom: 2rem;
+	padding: 20px 40px;
+	box-sizing: border-box;
+}
+.title_wrapper h1 {
+	width: 70%;
+}
+.container {
+	padding-bottom: 3rem;
+	padding-top: 5em;
+}
+img {
+	transition: all 0.5s ease;
+}
+.container img:hover {
+	transform: scale(1.1);
+}
